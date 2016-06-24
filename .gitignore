@@ -4,3 +4,4 @@ build/
 *.xcuserstate
 *.xcworkspacedata
 *.xcscmblueprint
+*.xcbkptlist
