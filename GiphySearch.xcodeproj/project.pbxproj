@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		54C0A8181D1D01B900EF17EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A8171D1D01B900EF17EE /* AppDelegate.swift */; };
-		54C0A81A1D1D01B900EF17EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A8191D1D01B900EF17EE /* ViewController.swift */; };
-		54C0A81D1D1D01B900EF17EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C0A81B1D1D01B900EF17EE /* Main.storyboard */; };
 		54C0A81F1D1D01B900EF17EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C0A81E1D1D01B900EF17EE /* Assets.xcassets */; };
-		54C0A8221D1D01B900EF17EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C0A8201D1D01B900EF17EE /* LaunchScreen.storyboard */; };
 		54C0A82D1D1D01B900EF17EE /* GiphySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A82C1D1D01B900EF17EE /* GiphySearchTests.swift */; };
+		54C0A83B1D1D02D200EF17EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C0A8391D1D02D200EF17EE /* LaunchScreen.storyboard */; };
+		54C0A83E1D1D02D900EF17EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C0A83C1D1D02D900EF17EE /* Main.storyboard */; };
+		54C0A8401D1D032A00EF17EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A83F1D1D032A00EF17EE /* MainViewController.swift */; };
+		54C0A8431D1D043D00EF17EE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A8421D1D043D00EF17EE /* Config.swift */; };
+		54C0A8451D1D04D700EF17EE /* TrendingGIFsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C0A8441D1D04D700EF17EE /* TrendingGIFsParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,17 @@
 /* Begin PBXFileReference section */
 		54C0A8141D1D01B900EF17EE /* GiphySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C0A8171D1D01B900EF17EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54C0A8191D1D01B900EF17EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54C0A81C1D1D01B900EF17EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54C0A81E1D1D01B900EF17EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54C0A8211D1D01B900EF17EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54C0A8231D1D01B900EF17EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54C0A8281D1D01B900EF17EE /* GiphySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C0A82C1D1D01B900EF17EE /* GiphySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchTests.swift; sourceTree = "<group>"; };
 		54C0A82E1D1D01B900EF17EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C0A83A1D1D02D200EF17EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = UI/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C0A83D1D1D02D900EF17EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = UI/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C0A83F1D1D032A00EF17EE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = UI/MainViewController.swift; sourceTree = "<group>"; };
+		54C0A8411D1D03AE00EF17EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		54C0A8421D1D043D00EF17EE /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		54C0A8441D1D04D700EF17EE /* TrendingGIFsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrendingGIFsParser.swift; path = Model/TrendingGIFsParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		54C0A80B1D1D01B900EF17EE = {
 			isa = PBXGroup;
 			children = (
+				54C0A8411D1D03AE00EF17EE /* README.md */,
 				54C0A8161D1D01B900EF17EE /* GiphySearch */,
 				54C0A82B1D1D01B900EF17EE /* GiphySearchTests */,
 				54C0A8151D1D01B900EF17EE /* Products */,
@@ -78,10 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				54C0A8171D1D01B900EF17EE /* AppDelegate.swift */,
-				54C0A8191D1D01B900EF17EE /* ViewController.swift */,
-				54C0A81B1D1D01B900EF17EE /* Main.storyboard */,
+				54C0A8421D1D043D00EF17EE /* Config.swift */,
+				54C0A8371D1D02B500EF17EE /* UI */,
+				54C0A8381D1D02BB00EF17EE /* Model */,
 				54C0A81E1D1D01B900EF17EE /* Assets.xcassets */,
-				54C0A8201D1D01B900EF17EE /* LaunchScreen.storyboard */,
 				54C0A8231D1D01B900EF17EE /* Info.plist */,
 			);
 			path = GiphySearch;
@@ -94,6 +100,24 @@
 				54C0A82E1D1D01B900EF17EE /* Info.plist */,
 			);
 			path = GiphySearchTests;
+			sourceTree = "<group>";
+		};
+		54C0A8371D1D02B500EF17EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				54C0A83C1D1D02D900EF17EE /* Main.storyboard */,
+				54C0A83F1D1D032A00EF17EE /* MainViewController.swift */,
+				54C0A8391D1D02D200EF17EE /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		54C0A8381D1D02BB00EF17EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54C0A8441D1D04D700EF17EE /* TrendingGIFsParser.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C0A8221D1D01B900EF17EE /* LaunchScreen.storyboard in Resources */,
+				54C0A83E1D1D02D900EF17EE /* Main.storyboard in Resources */,
 				54C0A81F1D1D01B900EF17EE /* Assets.xcassets in Resources */,
-				54C0A81D1D1D01B900EF17EE /* Main.storyboard in Resources */,
+				54C0A83B1D1D02D200EF17EE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C0A81A1D1D01B900EF17EE /* ViewController.swift in Sources */,
+				54C0A8451D1D04D700EF17EE /* TrendingGIFsParser.swift in Sources */,
 				54C0A8181D1D01B900EF17EE /* AppDelegate.swift in Sources */,
+				54C0A8401D1D032A00EF17EE /* MainViewController.swift in Sources */,
+				54C0A8431D1D043D00EF17EE /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,20 +247,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54C0A81B1D1D01B900EF17EE /* Main.storyboard */ = {
+		54C0A8391D1D02D200EF17EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54C0A81C1D1D01B900EF17EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		54C0A8201D1D01B900EF17EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C0A8211D1D01B900EF17EE /* Base */,
+				54C0A83A1D1D02D200EF17EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		54C0A83C1D1D02D900EF17EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C0A83D1D1D02D900EF17EE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -330,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GiphySearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kelin.vladimir.GiphySearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GiphySearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kelin.vladimir.GiphySearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
